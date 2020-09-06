@@ -19,6 +19,7 @@ namespace ReverseOrderWordsInString
                     output.Append(splitArray[i] + ' ');
                 }
             }
+
             return output.ToString();
         }
         public bool CheckIfPalindrome(string input)
@@ -79,8 +80,8 @@ namespace ReverseOrderWordsInString
                         characterCount[character]++;
                     }
                 }
-
             }
+
             foreach (var character in characterCount)
             {
                 output.AppendFormat("{0} - {1} {2}", character.Key, character.Value, Environment.NewLine);
