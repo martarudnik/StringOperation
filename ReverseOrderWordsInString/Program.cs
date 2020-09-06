@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ReverseOrderWordsInString
 {
@@ -10,6 +6,11 @@ namespace ReverseOrderWordsInString
     {
         static void Main(string[] args)
         {
+            string inputString = "Welcome in my project";
+            StringOperationClass stringOperation = new StringOperationClass();
+            string outputReverseOrderWordsInString = stringOperation.ReverseOrderWordsInString(inputString);
+            Console.WriteLine(outputReverseOrderWordsInString);
+            Console.ReadKey();
         }
     }
 }
