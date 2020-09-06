@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseOrderWordsInString", "ReverseOrderWordsInString\ReverseOrderWordsInString.csproj", "{77168876-05D3-4FFE-899A-15B7ADE50A97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77168876-05D3-4FFE-899A-15B7ADE50A97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77168876-05D3-4FFE-899A-15B7ADE50A97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77168876-05D3-4FFE-899A-15B7ADE50A97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77168876-05D3-4FFE-899A-15B7ADE50A97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3E077FF-1B25-42C3-A9AB-EBBFA893F6F3}
+	EndGlobalSection
+EndGlobal
