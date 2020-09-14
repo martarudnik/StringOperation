@@ -21,6 +21,8 @@ namespace ReverseOrderWordsInString
             string countTheOccurrenceEachCharacterInString = stringOperation.CountTheOccurrenceEachCharacterInString(inputString2);
             int counterOfSymbol = stringOperation.CountNumberOfSymbolInString(inputString, 'e');
             string newString = stringOperation.DeleteEvery2ndCharacterInString(inputString);
+            int numberOfWordsInString = stringOperation.DetermineNumberOfWordsInString(inputString);
+            string doubleOccurrenceOfEachCharacter = stringOperation.DoubleOccurrenceOfEachCharacter(inputString);
 
             Console.WriteLine(outputReverseOrderWordsInString);
             Console.WriteLine(outputPolidrome);
@@ -30,6 +32,8 @@ namespace ReverseOrderWordsInString
             Console.WriteLine(countTheOccurrenceEachCharacterInString);
             Console.WriteLine(counterOfSymbol);
             Console.WriteLine(newString);
+            Console.WriteLine(numberOfWordsInString);
+            Console.WriteLine(doubleOccurrenceOfEachCharacter);
             Console.ReadKey();
         }
     }

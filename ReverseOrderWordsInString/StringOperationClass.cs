@@ -106,5 +106,26 @@ namespace ReverseOrderWordsInString
             string newString =  string.Join<char>("", input.Where((ch, index) => (index % 2) == 0));
             return newString;
         }
+        public int DetermineNumberOfWordsInString(string input)
+        {
+            var splitTab = input.Split(' ');
+            return splitTab.Length;
+        }
+        public string DoubleOccurrenceOfEachCharacter(string input)
+        {
+            StringBuilder output = new StringBuilder();
+            for (int i=0; i<input.Length; i++)
+            {
+                if(input[i] != ' ')
+                {
+                    output.Append(input[i]).Append(input[i]);
+                }
+                else
+                {
+                    output.Append(input[i]);
+                }
+            }
+            return output.ToString();
+        }
     }
 }
