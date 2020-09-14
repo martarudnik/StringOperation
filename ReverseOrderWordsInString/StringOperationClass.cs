@@ -101,5 +101,10 @@ namespace ReverseOrderWordsInString
             }
             return counter;
         }
+        public string DeleteEvery2ndCharacterInString(string input)
+        {
+            string newString =  string.Join<char>("", input.Where((ch, index) => (index % 2) == 0));
+            return newString;
+        }
     }
 }
