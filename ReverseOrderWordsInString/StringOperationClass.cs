@@ -87,7 +87,19 @@ namespace ReverseOrderWordsInString
                 output.AppendFormat("{0} - {1} {2}", character.Key, character.Value, Environment.NewLine);
             }
 
-          return output.ToString();
+            return output.ToString();
+        }
+        public int CountNumberOfSymbolInString(string input, char symbol)
+        {
+            int counter = 0;
+            for (int i = 0; i < input.Length; i++)
+            {
+                if (input[i] == symbol)
+                {
+                    counter++;
+                }
+            }
+            return counter;
         }
     }
 }
